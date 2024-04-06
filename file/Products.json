@@ -178,5 +178,14 @@
 		"code": "a020",
 		"stock": 200,
 		"id": 20
+	},
+	{
+		"title": "titulo 30",
+		"description": "x 30",
+		"price": 30,
+		"thumbnail": "../img/img30.jpg",
+		"code": "a030",
+		"stock": 300,
+		"id": 21
 	}
 ]

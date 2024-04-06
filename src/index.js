@@ -10,21 +10,21 @@ const main = async () => {
 
 //DESPUES ELIJA LA ACCION QUE PREFIUERA TOMAR Y EJECUTE EL PROGRAMA
 
-
+    /*
     
     const response = await products.addProduct({
-        title: 'titulo 20',
-        description: 'x 20',
-        price: 20,
-        thumbnail: '../img/img20.jpg',
-        code: 'a020',
-        stock: 200,
+        title: 'titulo 30',
+        description: 'x 30',
+        price: 30,
+        thumbnail: '../img/img30.jpg',
+        code: 'a030',
+        stock: 300,
     })
-    
+    */
 
     //const response = await products.getProductById(8)
 
-    //const response = await products.getProducts()
+    const response = await products.getProducts()
 
     //const response = await products.updateProduct(1, 'titulo 1')
 
@@ -34,6 +34,3 @@ const main = async () => {
 }
 
 main()
-
-//LO HICE ASI MIRANDO EL VIDEO DEL AFTER PORQUE NO PUDE MEZCLAR LA ENTREGA ANTERIOR CON ESTA DE UNA MANERA EN LA QUE ME FUNCIONARAN TODAS LAS FUNCIONES,
-// PERO CREO QUE CUMPLE CON LO QUE SE PIDIO
