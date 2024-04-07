@@ -22,9 +22,9 @@ app.get ('/productos/:pid', async (req,res) => {
     const {pid} = req.params
 
     const productFound = await products.getProductById(parseInt(pid))
-    if(productFound)res.send(productFound) 
+    if(productFound) return res.send(productFound) 
 
-    res.send('el producto no fue encontrado')
+     return res.send('el producto no fue encontrado')
 })
 
 app.listen(8080, error => {
